@@ -12,12 +12,12 @@ export interface UserDetails {
 }
 
 export interface Product {
-    id: string
-    active?: boolean
-    name?: string
-    description?: string
-    image?: string
-    metadata?: Stripe.Metadata
+  id: string;
+  active?: boolean;
+  name?: string;
+  description?: string;
+  image?: string;
+  metadata?: Stripe.Metadata;
 }
 
 export interface Price {
@@ -52,4 +52,13 @@ export interface Subscription {
   trial_end?: string;
   trial_start?: string;
   prices?: Price;
+}
+
+export interface Song {
+  id: string;
+  user_id: string;
+  author: string;
+  title: string;
+  song_path: string;
+  image_path: string;
 }
