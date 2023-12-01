@@ -21,6 +21,7 @@ const Slider: React.FC<SliderProps> = ({ value = 1, onChange }) => {
         touch-none
         w-full
         h-10
+        hover:cursor-pointer
 
   "
       defaultValue={[1]}
